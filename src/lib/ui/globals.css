@@ -1,0 +1,69 @@
+* {
+	--ct-border-radius: 8px;
+
+	--ct-font-size-sm: 16px;
+	--ct-font-size-md: 20px;
+	--ct-font-size-lg: 24px;
+	--ct-font-size-xl: 28px;
+
+	--ct-border-radius: 8px;
+
+	--ct-screen-sm: 640px;
+	--ct-screen-md: 768px;
+	--ct-screen-lg: 1024px;
+	--ct-screen-xl: 1280px;
+
+	--ct-padding: 8px;
+}
+
+.dark {
+	--ct-text-on-surface: #f2f2f2;
+	--ct-text-on-primary: #1a1a1a;
+
+	--ct-surface: #333333;
+	--ct-surface-accent: #4d4d4d;
+	--ct-primary: #9db7f9;
+	--ct-primary-accent: #c5d7fb;
+
+	--ct-anchor: #39abff;
+}
+
+.light {
+	--ct-text: #1a1a1a;
+	--ct-text-on-surface: #1a1a1a;
+	--ct-text-on-primary: #f2f2f2;
+
+	--ct-surface: #f2f2f2;
+	--ct-surface-accent: #e6e6e6;
+	--ct-primary: #264af4;
+	--ct-primary-accent: #0031d8;
+
+	--ct-anchor: #0066be;
+}
+
+html,
+body {
+	font-size: var(--ct-font-size-md);
+	font-family: sans-serif;
+	font-weight: normal;
+
+	user-select: none;
+
+	border-radius: var(--ct-border-radius);
+
+	color: var(--ct-text-on-surface);
+	background: var(--ct-surface);
+
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	color: var(--ct-anchor);
+}
+
+button {
+	all: unset;
+}
